@@ -1,1 +1,1 @@
-# earthly-command-example
+# earthly-function-example
