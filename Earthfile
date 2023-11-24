@@ -1,11 +1,11 @@
-VERSION 0.6
+VERSION --use-function-keyword 0.7
 
 COPY_CAT:
-  COMMAND
+  FUNCTION
   COPY message.txt ./
   RUN cat message.txt
 
 TOUCH:
-  COMMAND
+  FUNCTION
   ARG file=touched
   RUN touch $file
