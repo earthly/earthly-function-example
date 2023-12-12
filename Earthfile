@@ -1,6 +1,6 @@
 VERSION --use-function-keyword 0.7
 
-IMPORT /some/path AS ido
+IMPORT ./some/path AS ido
 
 test:
   FROM alpine
