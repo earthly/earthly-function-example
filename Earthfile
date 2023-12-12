@@ -1,6 +1,6 @@
 VERSION --use-function-keyword 0.7
 
-IMPORT ./ido AS ido
+IMPORT ../ido AS ido
 
 test:
   FROM alpine
