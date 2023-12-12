@@ -1,5 +1,11 @@
 VERSION --use-function-keyword 0.7
 
+IMPORT ./ido AS ido
+
+test:
+  FROM alpine
+  ido+TEST
+
 COPY_CAT:
   FUNCTION
   COPY message.txt ./
