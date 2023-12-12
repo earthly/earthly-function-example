@@ -4,7 +4,7 @@ IMPORT ./ido AS ido
 
 test:
   FROM alpine
-  ido+TEST
+  DO ido+TEST
 
 COPY_CAT:
   FUNCTION
