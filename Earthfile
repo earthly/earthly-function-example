@@ -1,6 +1,6 @@
 VERSION --use-function-keyword 0.7
 
-COPY_CAT:
+COPY_CAT:1
   FUNCTION
   COPY message.txt ./
   RUN cat message.txt
